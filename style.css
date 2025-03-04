@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    font-family: "Alata", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 1440px;
+}
+
+header {
+    font-family: "Josefin Sans", serif;
+    height: 100vh;
+    background-image: url(images/desktop/image-hero.jpg)
+}
+
+:root {
+    --primarycolor: hsl(0, 0%, 100%) - -black: hsl(0, 0%, 0%) --DarkGray: hsl(0, 0%, 55%) --VeryDarkGray: hsl(0, 0%, 41%)
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto 1rem;
+    height: 10vh;
+    color: white;
+    font-weight: 100;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--primarycolor);
+    margin: 0 .5rem;
+    padding: 0.5rem 1.2rem;
+}
+
+
+li:hover {
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+}
+
+.herotext{
+    font-size: 2rem;
+    color: white;
+    font-weight: 100;
+    font-family: "Josefin Sans", serif;
+    width:  500px;
+    border: 1px solid white; 
+    border-radius: 1px;
+    padding-left: 2rem ;
+    margin: 13rem;
+}
+
+.hero2{
+    height: 100vh;
+    position: relative;
+    padding-top: 60px;
+    padding: 50px;
+
+    
+}
+
+.theleader{
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 40%;
+    background-color: white;
+    padding: 6rem 0px 50px 80px;
+
+}
+
+.theleader h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 100px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+}
