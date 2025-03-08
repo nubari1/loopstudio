@@ -93,6 +93,19 @@ li:hover {
     font-weight: 100px;
 }
 
+.ourcreation{
+    margin: 4rem 0;
+}
+
+.ourcreation h1{
+    font-size: 2rem;
+    margin: 1rem 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-right: 50rem;
+    
+}
+
 .first{
     display: flex;
     justify-content: space-around;
@@ -101,4 +114,27 @@ li:hover {
 .second{
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
+    place-content: center;
+    gap: 2rem;
+
+    .item{
+        position: relative;
+    }
+
+}
+.item p{
+position: absolute;
+bottom: 2rem; 
+left: 5rem;
+color: white;
+font-size: xx-large;
+}
+
+
+@media screen and (max-width:
+ 400px) {
+    .second{
+        grid-template-columns: 1fr;
+
+    }
 }
